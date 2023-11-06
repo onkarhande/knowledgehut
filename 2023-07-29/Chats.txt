@@ -1,0 +1,45 @@
+Aadhar  to  Everyone 14:19
+https://github.com/aadhar54/node-js-auth/tree/starter-files
+Aadhar  to  Everyone 14:23
+https://github.com/aadhar54/node-js-auth/tree/starter-files
+Aadhar  to  Everyone 14:24
+https://www.mongodb.com/docs/manual/tutorial/insert-documents/
+
+https://studio3t.com/wp-content/uploads/2020/09/mongodb-vs-sql-1.png
+
+https://www.mongodb.com/docs/manual/reference/delete-methods/
+https://www.mongodb.com/docs/compass/current/collections/#:~:text=A%20collection%20is%20a%20grouping,exists%20within%20a%20single%20database
+https://www.mongodb.com/docs/manual/reference/bson-types/#objectid
+https://www.w3schools.com/mongodb/
+https://www.geeksforgeeks.org/mongodb-tutorial/
+
+https://leetcode.com/problems/roman-to-integer/
+
+
+
+Aadhar  to  Everyone 17:09
+https://github.com/aadhar54/node-js-auth/tree/starter-files
+Aadhar  to  Everyone 17:13
+https://leetcode.com/problems/3sum/
+https://www.youtube.com/@javainterviewbuddy567
+
+
+var threeSum = function(nums) {
+    let arr=[];
+    let obj={};
+    for(let i =0;i<nums.length;i++){
+        for(let j=i+1;j<nums.length;j++){
+            for(let k=j+1;k<nums.length;k++){
+                if(nums[i]+nums[j]+nums[k]===0){
+                    let m=[nums[i],nums[j],nums[k]].sort((a,b)=>a-b).join("");
+                    if(!obj[m]){obj[m]=1;
+                    arr.push([nums[i],nums[j],nums[k]])};
+                    console.log(arr)
+                }
+            }
+        }
+    }
+    
+    return arr
+    
+};
